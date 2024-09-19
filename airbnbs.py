@@ -20,13 +20,6 @@ coll= db["listingsAndReviews"]
 #reading processed dataframe
 df= pd.read_csv("D:/capstone/Airbnb.csv")
 
-# HOME PAGE
-if select == "Home":
-    col1,col2 = st.columns(2)
-    col1.markdown("### :red[Domain] : Travel Industry, Property Management and Tourism")
-    col1.markdown("### :red[Technologies used] : Python, Pandas, Plotly, Streamlit, MongoDB")
-    col1.markdown("### :red[Overview] : To analyze Airbnb data using MongoDB Atlas, perform data cleaning and preparation, develop interactive visualizations, and create dynamic plots to gain insights into pricing variations, availability patterns, and location-based trends. ")
-
 # OVERVIEW PAGE
 if select == "Overview":
     tab1,tab2 = st.tabs(["$\huge 📝 RAW DATA $", "$\huge🚀 INSIGHTS $"])
